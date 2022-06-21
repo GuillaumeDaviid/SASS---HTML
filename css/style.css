@@ -4,8 +4,60 @@
   font-family: "Poppins";
 }
 
+a {
+  font-size: 16px;
+}
+
 .header {
   display: flex;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+}
+.skills__block {
+  width: 20vw;
+  min-height: 300px;
+}
+.skills__block:hover {
+  background: linear-gradient(to top, #fd3ea4, #fd3f81, #fd3fb3);
+  color: white;
+}
+.skills__block--number {
+  position: absolute;
+  color: #fd3e4f;
+  font-size: 120px;
+  opacity: 0.25;
+}
+:hover > .skills__block--number {
+  position: static;
+  font-size: 60px;
+  color: white;
+  opacity: 1;
+}
+.skills__block--title {
+  color: #5c5c5c;
+  font-size: 20px;
+}
+:hover > .skills__block--title {
+  color: white;
+}
+.skills__block--para {
+  color: #7b7b7b;
+  font-size: 14px;
+  margin-top: 50px;
+}
+:hover > .skills__block--para {
+  color: white;
+  margin-top: 10px;
 }
 
 * {

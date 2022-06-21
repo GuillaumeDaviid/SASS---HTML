@@ -1,0 +1,56 @@
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 80%;
+    }
+
+    &__block {
+        width: 20vw;
+        min-height: 300px;
+
+        &:hover {
+            background: $hoverSkills;
+            color: white;
+        }
+        
+        &--number {
+            position: absolute;
+            color : $rouge;
+            font-size: 120px;
+            opacity: 0.25;
+
+            :hover > & {
+                position: static;
+                font-size: 60px;
+                color: white;
+                opacity: 1;
+            }
+        }
+
+        &--title {
+            color: $grisTitreSkills;
+            font-size: 20px;
+
+            :hover > & {
+                color: white;
+            }
+        }
+
+        &--para {
+            color: $grisParaSkills;
+            font-size: 14px;
+            margin-top: 50px;
+
+            :hover > & {
+                color: white;
+                margin-top: 10px;
+            }
+        }
+    }
+}
