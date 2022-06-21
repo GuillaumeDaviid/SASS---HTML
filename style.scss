@@ -1,3 +1,12 @@
+@import "helpers/variables";
+@import "helpers/typo";
+
+@import "components/about";
+@import "components/header";
+@import "components/skills";
+@import "components/footer";
+@import "components/team";
+
 * {
     margin: 0;
     padding: 1;
