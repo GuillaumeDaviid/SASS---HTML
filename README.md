@@ -2,8 +2,8 @@
 
 Install Nodejs 
 
-install sass with ```bash npm install -g sass ```
+install sass with ``` npm install -g sass ```
 
-init json package with ```bash npm init ```
+init json package with ``` npm init ```
 
-run sass with ```bash npm run sass ```
+run sass with ``` npm run sass ```
