@@ -161,6 +161,59 @@ p {
   margin-top: 10px;
 }
 
+.team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.team__container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.team__container--block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*
+              &:hover {
+                  background: $linear;
+              }*/
+}
+.team__container_elt {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.team--img {
+  min-width: 0;
+  min-height: 0;
+}
+:hover > .team--name {
+  color: white;
+  position: absolute;
+}
+.team--postes {
+  color: #9a9a9a;
+}
+:hover > .team--postes {
+  color: white;
+  margin-top: 30px;
+  position: absolute;
+}
+.team--network {
+  display: none;
+}
+:hover > .team--network {
+  position: absolute;
+  display: block;
+  margin-top: 50px;
+  z-index: 3;
+}
+
 * {
   margin: 0;
   padding: 1;
