@@ -2,14 +2,29 @@
     display: flex;
     margin-top: 200px;
     margin-bottom: 200px;
+    @media (max-width: $mobile) {
+        flex-direction: column;
+    }
 
     &__img {
         width: 50%;
+        @media (max-width: $medium) {
+            height: 50%;
+            width: 50%;
+        }
+        @media (max-width: $tablettes) {
+            height: 20%;
+            width: 30%;
+        }
     }
 
     &__container {
         width: 20%;
         margin-left: 100px;
+
+        @media (max-width: $tablettes) {
+            width: 50%;
+        }
 
         &--innov {
             font-size: 25px;
