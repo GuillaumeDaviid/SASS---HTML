@@ -120,8 +120,9 @@ p {
 .skills__container {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 80%;
+  margin-top: 150px;
 }
 .skills__block {
   width: 20vw;
