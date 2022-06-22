@@ -1,3 +1,70 @@
 .header {
     display: flex;
+    flex-direction: column;
+    background-image: url(../images/overlay.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    height: 100vh;
+    color: white;
+
+    &__nav {
+        margin-top: 50px;
+        display: flex;
+        color: white;
+        justify-content: space-between;
+
+        &--logo {
+            margin-left: 50px;
+        }
+
+        &--network {
+            margin-right: 150px;
+        }
+
+        &--link {
+            width: 30vw;
+            display: flex;
+            justify-content: space-between;
+            font-weight: 700;
+        }
+    }
+
+    &__title {
+        margin-top: 25vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        &--sub {
+            margin-bottom: 50px;
+            font-size: 25px;
+            font-weight: 100;
+        }
+
+        &--main {
+            text-align: center;
+            font-size: 50px;
+        }
+    }
+
+    &__btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+
+        &--item {
+            background: $linear;
+            color: white;
+            width: 200px;
+            height: 75px;
+            font-weight: 700;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    }
+}
+
+.network {
+    margin-left: 5px;
 }

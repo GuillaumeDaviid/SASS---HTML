@@ -6,10 +6,74 @@
 
 a {
   font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  font-size: 16px;
 }
 
 .header {
   display: flex;
+  flex-direction: column;
+  background-image: url(../images/overlay.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  height: 100vh;
+  color: white;
+}
+.header__nav {
+  margin-top: 50px;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+.header__nav--logo {
+  margin-left: 50px;
+}
+.header__nav--network {
+  margin-right: 150px;
+}
+.header__nav--link {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+}
+.header__title {
+  margin-top: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header__title--sub {
+  margin-bottom: 50px;
+  font-size: 25px;
+  font-weight: 100;
+}
+.header__title--main {
+  text-align: center;
+  font-size: 50px;
+}
+.header__btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.header__btn--item {
+  background: linear-gradient(to top, #fd3fb3, #fd3f81, #fd3e4f);
+  color: white;
+  width: 200px;
+  height: 75px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.network {
+  margin-left: 5px;
 }
 
 .skills {
@@ -28,7 +92,7 @@ a {
   min-height: 300px;
 }
 .skills__block:hover {
-  background: linear-gradient(to top, #fd3ea4, #fd3f81, #fd3fb3);
+  background: linear-gradient(to top, #fd3e4f, #fd3f81, #fd3fb3);
   color: white;
 }
 .skills__block--number {
