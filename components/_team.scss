@@ -16,6 +16,10 @@
             align-items: center;
         }
 
+        &--title {
+            color: $noir;
+        }
+
         &_elt {
             margin-top: 50px;
             display: flex;
@@ -30,6 +34,7 @@
 
 .team {
     &--name {
+        color: $noir;
         :hover > & {
             margin-top: 150px;
             color: white;

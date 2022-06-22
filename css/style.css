@@ -79,7 +79,7 @@ p {
   border-color: white;
   margin-left: 70vw;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 20px;
 }
 @media (max-width: 1000px) {
   .about__container--btn {
@@ -337,6 +337,9 @@ p {
   flex-direction: column;
   align-items: center;
 }
+.team__container--title {
+  color: #222222;
+}
 .team__container_elt {
   margin-top: 50px;
   display: flex;
@@ -349,6 +352,9 @@ p {
   }
 }
 
+.team--name {
+  color: #222222;
+}
 :hover > .team--name {
   margin-top: 150px;
   color: white;
