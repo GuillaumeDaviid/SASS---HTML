@@ -161,6 +161,41 @@ p {
   margin-top: 10px;
 }
 
+.footer {
+  display: flex;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.footer__img {
+  width: 50%;
+}
+.footer__container {
+  width: 20%;
+  margin-left: 100px;
+}
+.footer__container--innov {
+  font-size: 25px;
+}
+.footer__container--content {
+  margin-top: 100px;
+  color: #717171;
+}
+.footer__container--btn {
+  margin-top: 100px;
+  border: 0;
+  background: linear-gradient(to top, #fd3fb3, #fd3f81, #fd3e4f);
+  color: white;
+  width: 200px;
+  height: 75px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.red-title {
+  color: #fd3e4f;
+}
+
 .team {
   display: flex;
   flex-direction: column;

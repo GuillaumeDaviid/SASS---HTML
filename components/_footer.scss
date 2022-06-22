@@ -1,0 +1,39 @@
+.footer {
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+    &__img {
+        width: 50%;
+    }
+
+    &__container {
+        width: 20%;
+        margin-left: 100px;
+
+        &--innov {
+            font-size: 25px;
+        }
+
+        &--content {
+            margin-top: 100px;
+            color: $grisInnovSoluPara;
+        }
+
+        &--btn {
+            margin-top: 100px;
+            border: 0;
+            background: $linear;
+            color: white;
+            width: 200px;
+            height: 75px;
+            font-weight: 700;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    }
+}
+
+.red-title {
+    color: $rouge;
+}
